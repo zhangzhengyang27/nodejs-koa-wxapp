@@ -9,12 +9,10 @@ module.exports = {
     },
     security: {
         secretKey: "abcdefg",
-        // 过期时间 1小时
+        // 过期时间 1小时 测试阶段时间调长
         expiresIn: 60 * 60 * 24 * 3
     },
     wx: {
-        // appId: 'wxd2e0c5da046bc12e',
-        // appSecret: 'e4b11b262b491bc81ddce8e89fc2d972',
         appId: "wxa0846ea4e56f6486",
         appSecret: "747c805f66a3886d8f8df427a3aeea94",
         // 添加占位符
